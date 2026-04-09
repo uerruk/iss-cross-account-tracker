@@ -1,10 +1,11 @@
-# 🛰️ ISS Cross-Account Tracker
+# ISS Cross-Account Tracker
 
-A serverless AWS project that tracks the International Space Station in real time using **cross-account IAM roles**, **STS AssumeRole**, **Python Lambda**, and **EventBridge** — running fully automated with zero permanent credentials.
+Hi 
+This is a serverless AWS project that tracks the International Space Station in real time using **cross-account IAM roles**, **STS AssumeRole**, **Python Lambda**, and **EventBridge** — running fully automated with zero permanent credentials.
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 Account A (Operations)                    Account B (Data)
@@ -29,7 +30,7 @@ Lambda (Python 3.12)
 
 ---
 
-## 🔑 Why STS AssumeRole (Not Access Keys)
+## Why STS AssumeRole (Not Access Keys)
 
 | Access Keys | STS AssumeRole |
 |---|---|
@@ -42,7 +43,7 @@ This is how every enterprise AWS environment works. Netflix, Amazon, every large
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 iss-cross-account-tracker/
@@ -169,7 +170,7 @@ Check Account B → S3 bucket for new JSON files appearing every 5 minutes.
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ### Lambda Test Succeeded
 ![Lambda Test](screenshots/lambda-test-succeeded.jpg)
@@ -185,7 +186,7 @@ Check Account B → S3 bucket for new JSON files appearing every 5 minutes.
 
 ---
 
-## 🧠 What This Teaches
+##  What This Teaches
 
 | Concept | Detail |
 |---|---|
@@ -197,13 +198,13 @@ Check Account B → S3 bucket for new JSON files appearing every 5 minutes.
 
 ---
 
-## 💼 Real World Use Case
+##  Real World Use Case
 
 Large companies like Netflix separate environments across AWS accounts — production, staging, data, security all in separate accounts. Cross-account roles with STS is the standard pattern for allowing services in one account to interact with resources in another — without sharing permanent credentials.
 
 ---
 
-## ⚙️ Technologies Used
+##  Technologies Used
 
 - AWS Lambda (Python 3.12)
 - AWS STS (AssumeRole)
