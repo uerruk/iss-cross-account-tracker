@@ -64,7 +64,7 @@ iss-cross-account-tracker/
 
 ---
 
-## 🚀 How to Build This
+## How to Build This
 
 ### Prerequisites
 - Two separate AWS accounts
