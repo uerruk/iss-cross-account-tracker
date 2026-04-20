@@ -185,8 +185,8 @@ Check Account B → S3 bucket for new JSON files appearing every 5 minutes.
 ![Trust Policy](screenshots/iam-crossaccount-trust.jpg)
 
 ### ISS-Coordinates
-![Success](iss-coordinates.jpg)
-![Success](iss-live-location.jpg)
+![Success](screenshots/iss-coordinates.jpg)
+![JSON Data](screenshots/iss-live-location.jpg)
 
 ---
 
