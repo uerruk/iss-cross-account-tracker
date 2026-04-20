@@ -186,6 +186,8 @@ Check Account B → S3 bucket for new JSON files appearing every 5 minutes.
 
 ### ISS-Coordinates
 ![Success](screenshots/iss-coordinates.jpg)
+
+### JSON Data
 ![JSON Data](screenshots/iss-live-location.jpg)
 
 ---
